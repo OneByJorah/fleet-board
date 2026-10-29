@@ -14,6 +14,7 @@ Write each requirement as one row under its section, in this format. The fence k
 ## G · Goals: what the client asked for
 
 ## K · Constraints
+
 - K1 [draft, must] Every change lands as a PR that a second agent verified; no direct pushes to main from builders. | gate: review
 - K2 [draft, must] A repo is only "done" after local verification: build + health check green on this machine. | gate: review
 - K3 [draft, must] Factory standard holds on every repo: clean .env.example, healthchecks, non-root nginx, guarded release-please, real README. | gate: review
